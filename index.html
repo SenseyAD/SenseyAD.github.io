@@ -6,33 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test Page: Don't Panic</title>
+    <style>
+        a {
+            color: red;
+        }
+        
+        #exec-bio {
+            background-color: lightgray;
+        }
+        
+        #orangeid {
+            background-color: orange;
+        }
+        
+        .bio-box {
+            border: 1px solid black;
+            background-color: azure;
+        }
+        
+        .bio-box a {
+            color: green;
+        }
+    </style>
 </head>
 
 <body>
     <h1>I'm an h1</h1>
     <ul>
         <li>
-            <a href="http://example.com/" style="color: red;">Link</a>
+            <a href="http://example.com/" id="orangeid">Link</a>
         </li>
         <li>
-            <a href="http://example.com/" style="color: red;">Link</a>
+            <a href="http://example.com/">Link</a>
         </li>
         <li>
-            <a href="http://example.com/" style="color: red;">Link</a>
+            <a href="http://example.com/">Link</a>
         </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;">
-        <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-bio" class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-        <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-        <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-        <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
     </div>
 
 </body>
