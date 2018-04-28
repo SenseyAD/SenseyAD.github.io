@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is a new post
+title: This is a camper post
 postHero: /images/camper-favourite.jpg
 author: AD
 
